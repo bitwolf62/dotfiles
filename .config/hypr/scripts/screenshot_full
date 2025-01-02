@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+uwsm app -- hyprshot -m output || exit
+notify-send "Screenshot copied to Pictures Folder"

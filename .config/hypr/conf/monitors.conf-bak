@@ -1,0 +1,22 @@
+# Monitors Section #
+
+$priMon = HDMI-A-1 #primary
+$secMon = HDMI-A-2 #secondary
+#$tercMon = DP-1 #tertiary
+monitor = $priMon,1920x1080@60,1366x0,1
+monitor = $secMon,1366x768@59.79,0x0,1
+#monitor = $terMon, preferred, 3840x0, 1
+
+# bind workspaces to certain monitor
+workspace = 1, monitor:$priMon, default:true
+workspace = 2, monitor:$priMon
+workspace = 3, monitor:$priMon
+workspace = 4, monitor:$priMon
+workspace = 5, monitor:$priMon
+workspace = 6, monitor:$secMon, default:true
+workspace = 7, monitor:$secMon
+workspace = 8, monitor:$secMon
+workspace = 9, monitor:$secMon
+workspace = 10, monitor:$secMon
+
+# Monitors End #

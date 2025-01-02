@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+uwsm app -- hyprshot -m region || exit
+notify-send "Screenshot copied to Pictures Folder"

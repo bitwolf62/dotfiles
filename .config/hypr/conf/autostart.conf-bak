@@ -1,0 +1,21 @@
+#################
+### AUTOSTART ###
+#################
+exec-once = uwsm finalize
+exec-once = ~/.azotebg-hyprland
+exec-once = uwsm app -- waybar -c .config/waybar/config-hypr &
+exec-once = uwsm app -- fcitx5 -d &
+exec-once = uwsm app -- mako &
+exec-once = hyprctl setcursor Bibata-Modern-Ice 24
+exec-once = systemctl --user start hypridle 
+exec-once = systemctl --user start hyprpolkitagent
+# ## Slow app launch fix
+#exec-once = systemctl --user import-environment &
+#exec-once = systemctl --user start graphical-session.target &
+#exec-once = hash dbus-update-activation-environment 2>/dev/null &
+#exec-once = dbus-update-activation-environment --systemd &
+exec-once = uwsm app -- gammastep-indicator &
+# Load GTK settings
+exec-once = ~/.config/hypr/scripts/gtk.sh
+# Autostart Section End #
+
