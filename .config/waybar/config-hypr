@@ -273,7 +273,7 @@
    
     "custom/settings": {
     "format": "󰒓",
-    "on-click": "sleep 0.1 && uwsm app -- hyprgui",
+    "on-click": "sleep 0.1 && uwsm app -- /home/patrick/Applications/com.ml4w.hyprland_3922c1ce30f8cc6f954641c98d4bdf6a.settings",
     "tooltip-format": "Hyprland Settings"
    },
      
